@@ -1,0 +1,27 @@
+{
+    "name": "axguowen/gateway-client",
+    "description": "Simple PHP Gateway Client Library",
+    "keywords": [
+        "php",
+        "gateway",
+        "client"
+    ],      
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "axguowen",
+            "email": "axguowen@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "axguowen\\": "src"
+        },
+        "files": [
+            "stubs/load_stubs.php"
+        ]
+    }
+}
